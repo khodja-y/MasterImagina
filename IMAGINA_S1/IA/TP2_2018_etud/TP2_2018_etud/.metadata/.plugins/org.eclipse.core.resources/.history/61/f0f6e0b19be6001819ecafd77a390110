@@ -1,0 +1,50 @@
+package structure;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
+public class KnowledgeBase {
+	private FactBase bf;
+	private RuleBase rl;
+	private FactBase bf2;
+	
+	public KnowledgeBase(){
+		bf = new FactBase();
+		rl = new RuleBase();
+		bf2 = new FactBase();
+	}
+	
+	public KnowledgeBase(BufferedReader in) throws IOException{
+		rl = new RuleBase();
+		String s = in.readLine();
+		bf = new FactBase();
+		bf2 = new FactBase();
+		
+		
+		while (s!= null) // arrêt si fin de fichier ou ligne lue vide
+		{
+			Rule r = new Rule(s);
+			rl.addRule(r);
+			bf.addAtoms(r.getHypothesis());
+					
+			//System.out.println(s);
+			s = in.readLine();
+		}
+		
+		
+		
+		
+		
+	}
+	
+	public String toString(){
+		String s = "";
+		s.concat(bf.toString());
+		s.concat(rl.toString());
+		return s;
+	}
+
+}

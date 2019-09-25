@@ -1,0 +1,81 @@
+7
+WA R;G;B
+NA R;G;B
+SA R;G;B
+QU R;G;B
+NSW R;G;B
+VI R;G;B
+TA R;G;B
+8
+ext
+WA NT
+6
+R;G
+R;B
+G;R
+G;B
+B;G
+B;R
+ext
+WA SA
+6
+R;G
+R;B
+G;R
+G;B
+B;G
+B;R
+ext
+NA QU
+6	
+R;G
+R;B
+G;R
+G;B
+B;G
+B;R
+ext
+SA QU
+6
+R;G
+R;B
+G;R
+G;B
+B;G
+B;R
+ext
+NSW QU
+6
+R;G
+R;B
+G;R
+G;B
+B;G
+B;R
+ext
+NT SA
+6
+R;G
+R;B
+G;R
+G;B
+B;G
+B;R
+ext
+NSW SA
+6
+R;G
+R;B
+G;R
+G;B
+B;G
+B;R
+ext
+NSW VI
+6
+R;G
+R;B
+G;R
+G;B
+B;G
+B;R

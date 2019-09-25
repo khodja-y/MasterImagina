@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="000099784" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="000099784"/>
+			<item value="000149920"/>
+			<item value="000149909"/>
+			<item value="Customer#000149603"/>
+			<item value="FUR-BO-10000330"/>
+			<item value="FUR-BO-10000112"/>
+			<item value="&quot;Adams Telephone Message Book W/Dividers/Space For Phone Numbers. 5 1/4&quot;&quot;X8 1/2&quot;&quot;. 200/Messages&quot;"/>
+			<item value="1/1/17 Furniture"/>
+			<item value="1/11/16 Ohio"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="318" key="DIALOG_WIDTH"/>
+		<item value="1|Noto Sans|9.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="407" key="DIALOG_HEIGHT"/>
+		<item value="804" key="DIALOG_X_ORIGIN"/>
+		<item value="256" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

@@ -1,0 +1,11 @@
+INDEX VERSION 1.131+/auto_home/ykhodja/Documents/Cours/BDD/TP 4/TP_HMIN122M-hadoop/.metadata/.plugins/org.eclipse.jdt.core
+688297396.index
+144169275.index
+233195835.index
+1025370681.index
+3927065165.index
+2286433769.index
+3461040572.index
+646308851.index
+2490294099.index
+3051285256.index

@@ -1,0 +1,15 @@
+package design_p;
+
+public class Link extends Elmnt_stock{
+	
+	public void cat(){
+		
+		String lien;
+		
+		public void cat(){
+			System.out.print(lien);
+		}
+		
+	}
+
+}

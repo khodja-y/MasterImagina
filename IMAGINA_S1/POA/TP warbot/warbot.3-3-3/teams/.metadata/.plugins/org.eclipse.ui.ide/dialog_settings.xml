@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/auto_home/ykhodja/Documents/Cours/POA/TP warbot/warbot.3-3-3/teams/KhoTeam"/>
+	</list>
+	<section name="SaveAsDialogSettings">
+		<item value="438" key="DIALOG_WIDTH"/>
+		<item value="1|Noto Sans|9.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="601" key="DIALOG_HEIGHT"/>
+		<item value="54" key="DIALOG_X_ORIGIN"/>
+		<item value="-53" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

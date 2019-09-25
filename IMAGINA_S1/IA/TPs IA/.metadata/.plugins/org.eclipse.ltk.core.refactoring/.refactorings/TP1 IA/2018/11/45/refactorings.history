@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;resultat.pdf&apos; to &apos;TP1 IA&apos;" description="Move &apos;resultat.pdf&apos; to &apos;TP1 IA&apos;" destination="/TP1 IA" element1="src/resultat.pdf" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1541435201021" updateReferences="true"/>
+</session>

@@ -1,0 +1,5 @@
+package design_p;
+
+public abstract class Elmnt_stock {
+
+}

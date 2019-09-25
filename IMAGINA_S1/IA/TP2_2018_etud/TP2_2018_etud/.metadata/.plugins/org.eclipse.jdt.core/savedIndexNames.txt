@@ -1,0 +1,2 @@
+INDEX VERSION 1.127+/auto_home/ykhodja/Documents/Cours/IA/TP2_2018_etud/TP2_2018_etud/.metadata/.plugins/org.eclipse.jdt.core
+497989188.index

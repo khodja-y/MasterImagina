@@ -1,0 +1,54 @@
+package structure;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class KnowledgeBase {
+	private FactBase bf;
+	private RuleBase rl;
+	private FactBase bf2;
+	
+	public KnowledgeBase(){
+		bf = new FactBase();
+		rl = new RuleBase();
+		bf2 = new FactBase();
+	}
+	
+	public KnowledgeBase(BufferedReader in) throws IOException{
+		rl = new RuleBase();
+		bf2 = new FactBase();
+		String s = in.readLine();
+		/* readLine() retourne :
+		-
+		la ligne lue jusqu'au retour chariot (lu mais non retourné), donc une
+		chaîne vide si la ligne ne comporte qu'un RC
+		-
+		la valeur null s'il n'y a rien à lire (fin du flux de données)
+		*/
+		if(s!=null) bf = new FactBase(s);
+		
+		while (s!= null && s.length()!= 0) // arrêt si fin de fichier ou ligne lue vide
+		{
+			Rule r = new Rule(s);
+			rl.addRule(r);
+			
+			
+			//System.out.println(s);
+			s = in.readLine();
+		}
+		
+		
+		
+		
+		
+	}
+	
+	public String toString(){
+		String s = "";
+		s.concat(bf.toString());
+		s.concat(rl.toString());
+		return s;
+	}
+
+}

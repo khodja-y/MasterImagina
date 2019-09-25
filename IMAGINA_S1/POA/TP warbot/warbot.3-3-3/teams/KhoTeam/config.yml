@@ -1,0 +1,15 @@
+Name: KhoTeam
+IconPath: KhoTeam.png
+SoundPath: KhoTeam.wav
+Description: |
+    Descriptions de mon équipe
+BrainsPackage: KhoTeam
+AgentsBrainClasses:
+    WarBase: WarBaseBrainController
+    WarExplorer: WarExplorerBrainController
+    WarLight: WarLightBrainController
+    WarHeavy: WarHeavyBrainController
+    WarRocketLauncher: WarRocketLauncherBrainController
+    WarKamikaze: WarKamikazeBrainController
+    WarEngineer: WarEngineerBrainController
+    WarTurret: WarTurretBrainController

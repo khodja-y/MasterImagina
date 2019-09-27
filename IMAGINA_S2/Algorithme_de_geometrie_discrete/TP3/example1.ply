@@ -1,0 +1,12 @@
+ply
+format ascii 1.0
+comment Mars model by Paul Bourke
+element vertex 1
+property float x
+property float y
+property float z
+comment element face 516960
+comment property list uchar int vertex_indices
+end_header
+0 0 0
+

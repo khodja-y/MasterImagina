@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+
+public class ItemSet {
+	
+	public ArrayList<Item> itemSet;
+	
+	public ItemSet() {
+		itemSet = new ArrayList<Item>();
+	}
+	
+	public ItemSet(ArrayList<Item> li) {
+		itemSet = li;
+	}
+
+}

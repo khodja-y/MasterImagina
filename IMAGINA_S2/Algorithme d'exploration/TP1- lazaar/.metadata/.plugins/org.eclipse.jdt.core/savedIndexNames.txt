@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+/auto_home/ykhodja/Documents/IMAGINA S2/Algorithme d'exploration/TP1- lazaar/.metadata/.plugins/org.eclipse.jdt.core
+646308851.index
+1506130806.index

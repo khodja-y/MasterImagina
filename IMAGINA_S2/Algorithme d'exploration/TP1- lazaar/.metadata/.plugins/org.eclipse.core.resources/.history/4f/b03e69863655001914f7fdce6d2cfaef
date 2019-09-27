@@ -1,0 +1,14 @@
+
+public class Item {
+	
+	public String item;
+	
+	public Item() {
+		item = new String();
+	}
+	
+	public Item(String s) {
+		item = s;
+	}
+
+}

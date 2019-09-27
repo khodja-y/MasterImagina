@@ -1,0 +1,77 @@
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<ItemSet> liste = new ArrayList<ItemSet>();
+		ItemSet is = new ItemSet();
+		Item it = new Item();
+		String tab[];
+		ItemSet alphabet = new ItemSet();
+		
+		try{
+			InputStream flux = new FileInputStream("../DataSets/" + args[1]); 
+			InputStreamReader lecture = new InputStreamReader(flux);
+			BufferedReader buff = new BufferedReader(lecture);
+			String ligne;
+			
+			while ((ligne=buff.readLine())!=null){
+				
+				tab = ligne.split(" ");
+				
+				for(int i=0; i<tab.length; i++) {
+					int elmnt = Integer.parseInt(tab[i]);
+					
+					it = new Item(elmnt);
+					is.itemSet.add(it);
+					
+					if(!alphabet.contientItem(it)) {
+						alphabet.itemSet.add(it);
+					}
+					
+				}
+				
+				liste.add(is);
+				
+				is = new ItemSet();
+			}
+			
+			buff.close(); 
+		}		
+		catch (Exception e){
+			
+			System.out.println(e.toString());
+			
+		}
+		
+		
+		
+		/*for(ItemSet itemSet : liste) {
+			
+			for(Item s : itemSet.itemSet) {
+				
+				System.out.print(s.item + " ");
+				
+			}
+			
+			System.out.print("\n");
+			System.out.println("*****************************");
+		}
+		
+		for(Item s : alphabet.itemSet) {
+			
+			System.out.println(s.item + " ");
+			
+		}*/
+		
+		
+		
+
+	}
+
+}

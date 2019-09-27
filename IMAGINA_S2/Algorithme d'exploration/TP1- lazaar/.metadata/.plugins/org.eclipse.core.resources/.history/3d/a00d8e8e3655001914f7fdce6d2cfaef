@@ -1,0 +1,28 @@
+import java.util.ArrayList;
+
+public class ItemSet {
+	
+	public ArrayList<Item> itemSet;
+	
+	public ItemSet() {
+		itemSet = new ArrayList<Item>();
+	}
+	
+	public ItemSet(ArrayList<Item> li) {
+		itemSet = li;
+	}
+	
+	public boolean contientItem(Item i) {
+		
+		for(Item s : itemSet) {
+			if(s.item.equals(i.item)) {
+				return true;
+			}
+		}
+		
+		return false;
+	}
+	
+	
+
+}

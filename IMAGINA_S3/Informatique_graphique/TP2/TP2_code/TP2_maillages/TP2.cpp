@@ -120,7 +120,7 @@ void collect_one_ring (std::vector<std::vector<unsigned short> > & one_ring) {
 
 
 
-void compute_vertex_valences (vector<std::vector<unsigned short> > triangles, vector<glm::vec3> indexed_vertices, vector<unsigned short> indices, vector<std::vector<unsigned short> & valences ) {
+void compute_vertex_valences (vector<std::vector<unsigned short> > triangles, vector<glm::vec3> indexed_vertices, vector<unsigned short> indices, vector<unsigned short> & valences ) {
 
     for(int i=0; i<indexed_vertices.size(); i++){
 
@@ -230,7 +230,7 @@ int main( void )
     std::vector<glm::vec3> indexed_normals;
 
     //Chargement du fichier de maillage
-    std::string filename("suzanne.off");
+    std::string filename("arma1.off");
     loadOFF(filename, indexed_vertices, indices, triangles );
     indexed_uvs.resize(indexed_vertices.size(), glm::vec2(1.)); //List vide de UV
 

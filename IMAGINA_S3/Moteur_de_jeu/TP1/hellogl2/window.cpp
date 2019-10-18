@@ -59,10 +59,14 @@
 #include <QDesktopWidget>
 #include <QApplication>
 #include <QMessageBox>
+#include <QtDebug>
 
 Window::Window(MainWindow *mw)
     : mainWindow(mw)
 {
+
+    setFocusPolicy(Qt::StrongFocus);
+
     glWidget = new GLWidget;
 
     xSlider = createSlider();
@@ -112,10 +116,42 @@ QSlider *Window::createSlider()
 
 void Window::keyPressEvent(QKeyEvent *e)
 {
-    if (e->key() == Qt::Key_Escape)
-        close();
-    else
-        QWidget::keyPressEvent(e);
+    switch (e->key()) {
+        case Qt::Key_Escape:
+            close();
+            break;
+        case Qt::Key_Right:
+            glWidget->m_camera.translate(0.5, 0, 0);
+            glWidget->update();
+            break;
+        case Qt::Key_Left:
+            glWidget->m_camera.translate(-0.5, 0, 0);
+            glWidget->update();
+            break;
+        case Qt::Key_Up:
+            glWidget->m_camera.translate(0, 0.5, 0);
+            glWidget->update();
+            break;
+
+        case Qt::Key_Down:
+            glWidget->m_camera.translate(0, -0.5, 0);
+            glWidget->update();
+            break;
+
+        case Qt::Key_P:
+            glWidget->m_camera.translate(0, 0, 0.5);
+            glWidget->update();
+            break;
+
+        case Qt::Key_M:
+            glWidget->m_camera.translate(0, 0, -0.5);
+            glWidget->update();
+            break;
+        default:
+            QWidget::keyPressEvent(e);
+            break;
+    }
+
 }
 
 void Window::dockUndock()

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../external/AntTweakBar-1.16/include/AntTweakBar.h
+stddef.h
+-
+string
+-
+string
+-
+
+/home/e20180009306/Bureau/MasterImagina/IMAGINA_S3/Informatique_graphique/TP4/external/AntTweakBar-1.16/src/MiniGLFW.h
+
+/home/e20180009306/Bureau/MasterImagina/IMAGINA_S3/Informatique_graphique/TP4/external/AntTweakBar-1.16/src/TwEventGLFW.c
+MiniGLFW.h
+/home/e20180009306/Bureau/MasterImagina/IMAGINA_S3/Informatique_graphique/TP4/external/AntTweakBar-1.16/src/MiniGLFW.h
+AntTweakBar.h
+-
+

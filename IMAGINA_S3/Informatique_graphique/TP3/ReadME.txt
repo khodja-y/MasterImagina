@@ -1,0 +1,1 @@
+j'ai passé de longues heures à essayer de faire le lissage avec Laplcae-Beltrami et le rapprochement avec la courbe gaussienne.
